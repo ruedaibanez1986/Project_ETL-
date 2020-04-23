@@ -1,2 +1,2 @@
-# Project_ETL-
-Thern Proposal Data Base Analysis 
+# ETL Project
+*Thern Proposal Data Base Analysis*
