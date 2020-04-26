@@ -46,10 +46,7 @@ The last step was to transfer our final output into a [Database](http://127.0.0.
 <img src="Assets/pgadmin_database.png" width ="700">
 
 
-We then reconnected the created database to a jupyter notebook file and generated a [pandas table](https://github.com/ruedaibanez1986/Project_ETL-/blob/master/Assets/pgadmin_connection.png?raw=true) in the notebook. 
-
-
-Besides loading the data, we decided to establish a connection with the intention of validating the tables within PGAdmin were populated correctly. 
+Besides creating a database and loading the data, we decided to establish a connection with the intention of validating the tables within PGAdmin were populated correctly. 
 
 #### Validating Connection with PGAdmin table
 
