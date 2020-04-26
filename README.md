@@ -13,7 +13,7 @@
 
 
 ### Loading the Data 
-The last step was to transfer our final output into a [Database](http://127.0.0.1:57996/browser/). We created a database and respective table defining data types so as to macth the  the columns  from the final Pandas Data Frame using Postgres database (**PGAdmin**) to store our original clean data sets. We then used the [schema](https://github.com/ruedaibanez1986/Project_ETL-/blob/master/schema.sql) to import the csv file into the SQL table. A visualization of the created database can be seen here:
+The last step was to transfer our final output into a [Database](http://127.0.0.1:57996/browser/). We created a database and respective table defining data types so as to match the  the columns  from the final Pandas Data Frame using Postgres database (**PGAdmin**) to store our original clean data sets. We then used the [schema](https://github.com/ruedaibanez1986/Project_ETL-/blob/master/schema.sql) to import the csv file into the SQL table. A visualization of the created database can be seen here:
 
 <img src="Assets/pgadmin_database.png" width ="700">
 
