@@ -16,9 +16,11 @@ This was the most challenging part of the project due to the way the reports as 
 One of the main challenges we encounter while sorting, and cleaning the data was to eliminate a category withing a column that was not relevant to this case. For this instance, we used the following code:
 
 #### Delete water waste water rows withing the data frame 
-<p> indexNames = organized_df[ organized_df['Market'] == "Water/Wastewater"].index <p>
- organized_df.drop(indexNames , inplace=True) 
 
+```python
+indexNames = organized_df[ organized_df['Market'] == "Water/Wastewater"].index 
+organized_df.drop(indexNames , inplace=True) 
+```
 The different drop option for pandas would eliminate the entire row or column. 
 
 Besides the sorting and the filtering of the data, we renamed some columns so they were easier to read and use by the individuals within the organization. 
