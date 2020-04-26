@@ -31,11 +31,11 @@ In a nutshell, we transform files with having on average more than 3100 rows and
 
 #### Raw Data 
 
-<img src= “Assets/raw_data_image.png”>
+<img src= "Assets/raw_data_image.png">
 
 #### Data Transformed 
 
-<img src= “Assets/exported_data_csv.png”>
+<img src= "Assets/exported_data_csv.png">
 
 
 ### Loading the Data 
@@ -56,7 +56,7 @@ Besides loading the data, we decided to establish a connection with the intentio
 Finally, we decided to work and play in some degree with the data group it by years with the intention of performing the analysis in terms of the numbers of proposals performed and the potential value this could generate to the company. 
 
 #### Grouping information from df created from the connection with PGAdmin
-<img src=“Assets/grouping_information_df.png” width ="700">
+<img src="Assets/grouping_information_df.png" width ="700">
 
 
 
