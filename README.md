@@ -15,9 +15,7 @@ This was the most challenging part of the project due to the way the reports as 
 
 One of the main challenges we encounter while sorting, and cleaning the data was to eliminate a category withing a column that was not relevant to this case. For this instance, we used the following code:
 
-#####Delete water waste water rows withing the data frame 
-
-
+#### Delete water waste water rows withing the data frame 
 indexNames = organized_df[ organized_df['Market'] == "Water/Wastewater"].index
 organized_df.drop(indexNames , inplace=True)
 
@@ -31,13 +29,13 @@ Our first approach was to used merge with pandas, but notice that this function 
 
 In a nutshell, we transform files with having on average more than 3100 rows and approximately 70 columns to exported data frames with roughly 300 rows and 14 columns in total. Without duplicated proposals, clean and legible information ready to be uploaded. 
 
-####Raw Data 
+#### Raw Data 
 
-<imag src= “Assets/raw_data_image.png”>
+<img src= “Assets/raw_data_image.png”>
 
-####Data Transformed 
+#### Data Transformed 
 
-<imag src= “Assets/exported_data_csv.png”>
+<img src= “Assets/exported_data_csv.png”>
 
 
 ### Loading the Data 
@@ -51,14 +49,14 @@ We then reconnected the created database to a jupyter notebook file and generate
 
 Besides loading the data, we decided to establish a connection with the intention of validating the tables within PGAdmin were populated correctly. 
 
-####Validating Connection with PGAdmin table
+#### Validating Connection with PGAdmin table
 
-<imag src= “Assets/pgadmin_connection.png”>
+<img src= “Assets/pgadmin_connection.png”>
 
 Finally, we decided to work and play in some degree with the data group it by years with the intention of performing the analysis in terms of the numbers of proposals performed and the potential value this could generate to the company. 
 
-####Grouping information from df created from the connection with PGAdmin
-<imag src= “Assets/grouping_information_df.png” width ="700">
+#### Grouping information from df created from the connection with PGAdmin
+<img src= “Assets/grouping_information_df.png” width ="700">
 
 
 
