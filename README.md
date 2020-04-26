@@ -31,11 +31,11 @@ In a nutshell, we transform files with having on average more than 3100 rows and
 
 #### Raw Data 
 
-<img src= "Assets/raw_data_image.png">
+<img src= "Assets/raw_data_image.png" width ="700">
 
 #### Data Transformed 
 
-<img src= "Assets/exported_data_csv.png">
+<img src= "Assets/exported_data_csv.png" width ="700">
 
 
 ### Loading the Data 
