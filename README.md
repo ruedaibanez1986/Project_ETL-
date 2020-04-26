@@ -15,7 +15,9 @@ This was the most challenging part of the project due to the way the reports as 
 
 One of the main challenges we encounter while sorting, and cleaning the data was to eliminate a category withing a column that was not relevant to this case. For this instance, we used the following code:
 
-# Delete water waste water rows withing the data frame 
+#####Delete water waste water rows withing the data frame 
+
+
 indexNames = organized_df[ organized_df['Market'] == "Water/Wastewater"].index
 organized_df.drop(indexNames , inplace=True)
 
@@ -56,11 +58,9 @@ Besides loading the data, we decided to establish a connection with the intentio
 Finally, we decided to work and play in some degree with the data group it by years with the intention of performing the analysis in terms of the numbers of proposals performed and the potential value this could generate to the company. 
 
 ####Grouping information from df created from the connection with PGAdmin
-<imag src= “Assets/grouping_information_df.png”>
+<imag src= “Assets/grouping_information_df.png” width ="700">
 
 
-
-### ??? Summary
 
 ---
 ### Tools Used
