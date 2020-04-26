@@ -20,6 +20,9 @@ The last step was to transfer our final output into a [Database](http://127.0.0.
 
 We then reconnected the created database to a jupyter notebook file and generated a [pandas table](https://github.com/ruedaibanez1986/Project_ETL-/blob/master/Assets/pgadmin_connection.png?raw=true) in the notebook. 
 
+
+### ??? Summary
+
 ---
 ### Tools Used
 * Jupyter Notebook
