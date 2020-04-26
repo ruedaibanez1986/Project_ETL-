@@ -51,7 +51,7 @@ Besides loading the data, we decided to establish a connection with the intentio
 
 #### Validating Connection with PGAdmin table
 
-<img src= “Assets/pgadmin_connection.png”>
+<img src= “Assets/pgadmin_connection.png” width ="700">
 
 Finally, we decided to work and play in some degree with the data group it by years with the intention of performing the analysis in terms of the numbers of proposals performed and the potential value this could generate to the company. 
 
