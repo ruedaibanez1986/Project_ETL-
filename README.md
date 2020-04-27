@@ -7,7 +7,7 @@
 
 ### Extracting the Data
 
-*We extracted the data from the Thern customer database 
+We extracted the data from the Thern customer database. 
 
 ### Transforming the Data 
 
