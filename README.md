@@ -57,7 +57,9 @@ Finally, we decided to work with the data by grouping it by years in order to an
 #### Grouping information from df created from the connection with pgAdmin
 <img src="Assets/grouping_information_df.png" width ="700">
 
+#### Summary 
 
+For this project we successfully completed the objective of ETL.  ETL  stands for Extract, Transform and Load.  In the first step extraction was done from multiple .csv files into the Jupyter Notebooks.  During the transform step, the data was extracted from the .xlsx  file cleaned and transformed.  This was done by sorting, filtering, and dropping unnecessary data.  The Loading step was finally completed by inputting the Pandas database into (PGadmin) and importing the data into the new tables created.  When it was all complete we had a database that was clean and ready for interpretation. 
 
 ---
 ### Tools Used
