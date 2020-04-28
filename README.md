@@ -7,7 +7,7 @@
 
 ### Extracting the Data
 
-We extracted the data from the Thern customer database. 
+We extracted the data from the Thern customer database into two Excel files one for 2017 and one for 2018. The files were then read into a Jupyter Notebook using Panda’s read_excel function. The extracted files contained 70 columns, 14 columns that have the main essential information were selected, the rest of the columns were dropped. The next step is to transform the data and prepare it to be loaded into the database.
 
 ### Transforming the Data 
 
@@ -23,13 +23,13 @@ organized_df.drop(indexNames , inplace=True)
 ```
 The different drop option for pandas would eliminate the entire row or column. 
 
-Besides the sorting and the filtering of the data, we renamed some columns so they were easier to read and use by the individuals within the organization. 
+Besides the sorting and the filtering of the data, we renamed some columns so they were easier to utilize by the individuals within the organization. 
 
-Once we manage to read the xlsx files in pandas transform the data we wanted to combine the two years of information with the intention of been able to compare the performance of the company in terms of “proposals” generated per year. 
+Once we managed to read the .xlsx files in pandas, transform the data we wanted to combine the two years of information with the intention of being able to compare the performance of the company in terms of “proposals” generated per year. 
 
-Our first approach was to used merge with pandas, but notice that this function at the moment of merging with an outer joint method would quadruple the number of rows in our new df. We discussed this situation and decided to used an append function to combine the two databases into one. 
+Our first approach was to use merge with pandas, but noticed that this function at the moment of merging with an outer join method would quadruple the number of rows in our new dataframe. We discussed this situation and decided to use an append function to combine the two databases into one. 
 
-In a nutshell, we transform files with having on average more than 3100 rows and approximately 70 columns to exported data frames with roughly 300 rows and 14 columns in total. Without duplicated proposals, clean and legible information ready to be uploaded. 
+In a nutshell, we transformed files having on average more than 3100 rows and approximately 70 columns to export data frames with roughly 300 rows and 14 columns in total. Without duplicated proposals, the clean and legible information was ready to be uploaded. 
 
 #### Raw Data 
 
@@ -41,20 +41,20 @@ In a nutshell, we transform files with having on average more than 3100 rows and
 
 
 ### Loading the Data 
-The last step was to transfer our final output into a [Database](http://127.0.0.1:57996/browser/). We created a database and respective table defining data types so as to match the  the columns  from the final Pandas Data Frame using Postgres database (**PGAdmin**) to store our original clean data sets. We then used the [schema](https://github.com/ruedaibanez1986/Project_ETL-/blob/master/schema.sql) to import the csv file into the SQL table. A visualization of the created database can be seen here:
+The last step was to transfer our final output into a [Database](http://127.0.0.1:57996/browser/). We created a database and respective table defining data types so as to match the columns from the final pandas dataframe using Postgres database (**pgAdmin**) to store our original clean data sets. We then used the [schema](https://github.com/ruedaibanez1986/Project_ETL-/blob/master/schema.sql) to import the csv file into the SQL table. A visualization of the created database can be seen here:
 
 <img src="Assets/pgadmin_database.png" width ="700">
 
 
-Besides creating a database and loading the data, we decided to establish a connection with the intention of validating the tables within PGAdmin were populated correctly. 
+Besides creating a database and loading the data, we decided to establish a connection with the intention of validating the tables within pgAdmin were populated correctly. 
 
-#### Validating Connection with PGAdmin table
+#### Validating Connection with pgAdmin table
 
 <img src="Assets/pgadmin_connection.png" width ="700">
 
-Finally, we decided to work and play in some degree with the data group it by years with the intention of performing the analysis in terms of the numbers of proposals performed and the potential value this could generate to the company. 
+Finally, we decided to work with the data by grouping it by years in order to analyze the number of proposals submitted and the potential revenue the proposals could generate for the company. 
 
-#### Grouping information from df created from the connection with PGAdmin
+#### Grouping information from df created from the connection with pgAdmin
 <img src="Assets/grouping_information_df.png" width ="700">
 
 
